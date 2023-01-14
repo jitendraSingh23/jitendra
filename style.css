@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 20px 0px;
+  }
+  
+  h1 {
+    font-size: 64px;
+    padding-bottom: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 32px;
+  }
+  
+  header div span {
+    font-size: 1.2rem;
+  }
+  
+  header div span a {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    display: flex;
+    padding: 0 64px;
+  }
+  
+  #sidebar {
+    width: 30%;
+  }
+  
+  #sidebar div {
+    margin-top: 1.3rem;
+  }
+  
+  #sidebar div h3 {
+    margin-bottom: 1rem;
+  }
+  
+  #sidebar div ul {
+    list-style-position: inside;
+    font-size: 18px;
+  }
+  
+  #sidebar div ul li {
+    font-size: 18px;
+  }
+  
+  #content {
+    margin: 1rem;
+    width: 70%;
+    background: white;
+  }
+  
+  #content div {
+      margin-bottom: 2rem;
+  }
+  
+  #about p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  #experience h3 {
+      margin-bottom: 1rem;
+  }
+  
+  #experience h4 {
+      margin-bottom: 0.75rem;
+      font-size: 1.3rem;
+      font-weight: 400;
+  } 
+  
